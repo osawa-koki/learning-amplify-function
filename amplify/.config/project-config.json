@@ -7,7 +7,7 @@
     "config": {
       "SourceDir": "./src/",
       "DistributionDir": "./build/",
-      "BuildCommand": "yarn tun build"
+      "BuildCommand": "yarn run build"
     }
   },
   "providers": [
