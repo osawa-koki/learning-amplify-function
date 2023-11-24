@@ -7,3 +7,7 @@ type Todo @model {
   name: String!
   description: String
 }
+
+type Query {
+  fn: String @function(name: "learningamplifyfunctaccc338b-${env}")
+}
