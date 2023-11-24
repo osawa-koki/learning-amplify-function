@@ -17,6 +17,9 @@
           "appId": "dgxqrzqe4z2iy",
           "type": "manual"
         }
+      },
+      "api": {
+        "learningamplifyfunct": {}
       }
     }
   }
