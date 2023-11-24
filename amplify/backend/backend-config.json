@@ -17,6 +17,13 @@
       "service": "AppSync"
     }
   },
+  "function": {
+    "learningamplifyfunctaccc338b": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "providerPlugin": "awscloudformation",
