@@ -192,6 +192,13 @@ export type DeleteTodoMutation = {
   } | null,
 };
 
+export type FnQueryVariables = {
+};
+
+export type FnQuery = {
+  fn?: string | null,
+};
+
 export type GetTodoQueryVariables = {
   id: string,
 };
