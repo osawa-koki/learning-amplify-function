@@ -5,9 +5,13 @@ import Head from 'next/head'
 import { Amplify } from 'aws-amplify'
 import { generateClient } from 'aws-amplify/api'
 
+import { ToastContainer } from 'react-toastify'
+
 import config from '../src/amplifyconfiguration.json'
 
+import 'react-toastify/dist/ReactToastify.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 import '../styles/style.scss'
 import '../styles/menu.scss'
 
@@ -32,6 +36,7 @@ export default function MyApp ({ Component, pageProps }: AppProps): React.JSX.El
       </Head>
       <Layout>
         <Component {...pageProps} />
+        <ToastContainer />
       </Layout>
     </>
   )
