@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         if: steps.node_modules_cache_id.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile --non-interactive
-      - name: Setup Amplify
+      - name: Setup Amplify env
         run: amplify pull --appId ${{ secrets.AMPLIFY_APP_ID }} --envName dev --yes
       - name: Run test
         run: yarn test
