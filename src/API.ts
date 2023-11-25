@@ -75,6 +75,12 @@ export type DeleteTodoInput = {
   id: string,
 };
 
+export type FnResult = {
+  __typename: "FnResult",
+  statusCode: number,
+  body: string,
+};
+
 export type ModelTodoFilterInput = {
   id?: ModelIDInput | null,
   name?: ModelStringInput | null,
@@ -196,7 +202,11 @@ export type FnQueryVariables = {
 };
 
 export type FnQuery = {
-  fn?: string | null,
+  fn?:  {
+    __typename: "FnResult",
+    statusCode: number,
+    body: string,
+  } | null,
 };
 
 export type GetTodoQueryVariables = {

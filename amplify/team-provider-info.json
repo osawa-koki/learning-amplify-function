@@ -24,7 +24,7 @@
       "function": {
         "learningamplifyfunctaccc338b": {
           "deploymentBucketName": "amplify-learningamplifyfunct-dev-221626-deployment",
-          "s3Key": "amplify-builds/learningamplifyfunctaccc338b-724959414e464b546356-build.zip"
+          "s3Key": "amplify-builds/learningamplifyfunctaccc338b-364e4a494e397332734a-build.zip"
         }
       }
     }

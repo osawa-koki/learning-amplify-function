@@ -13,7 +13,11 @@ export default function FuncPage (): React.JSX.Element {
     setIsLoading(true)
     graphqlClient.graphql({ query: fn })
       .then((result): void => {
-        toast.success(result.data.fn)
+        const fn = result.data.fn
+        if (fn == null) throw new Error('fn is null')
+        const statusCode = fn.statusCode
+        const body = fn.body
+        toast.success(`statusCode: ${statusCode}, body: ${body}`)
       })
       .catch((err): void => {
         toast.error(err.message)

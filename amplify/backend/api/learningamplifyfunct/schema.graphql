@@ -8,6 +8,11 @@ type Todo @model {
   description: String
 }
 
+type FnResult {
+  statusCode: Int!
+  body: String!
+}
+
 type Query {
-  fn: String @function(name: "learningamplifyfunctaccc338b-${env}")
+  fn: FnResult @function(name: "learningamplifyfunctaccc338b-${env}")
 }
