@@ -28,5 +28,35 @@
         }
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-learningamplifyfunct-prod-144407-authRole",
+      "UnauthRoleArn": "arn:aws:iam::938385028059:role/amplify-learningamplifyfunct-prod-144407-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::938385028059:role/amplify-learningamplifyfunct-prod-144407-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-learningamplifyfunct-prod-144407-deployment",
+      "UnauthRoleName": "amplify-learningamplifyfunct-prod-144407-unauthRole",
+      "StackName": "amplify-learningamplifyfunct-prod-144407",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:938385028059:stack/amplify-learningamplifyfunct-prod-144407/a7e83c80-8b55-11ee-a67d-06fb0c357961",
+      "AmplifyAppId": "dgxqrzqe4z2iy"
+    },
+    "categories": {
+      "function": {
+        "learningamplifyfunctaccc338b": {
+          "deploymentBucketName": "amplify-learningamplifyfunct-prod-144407-deployment",
+          "s3Key": "amplify-builds/learningamplifyfunctaccc338b-364e4a494e397332734a-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dgxqrzqe4z2iy",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "learningamplifyfunct": {}
+      }
+    }
   }
 }
