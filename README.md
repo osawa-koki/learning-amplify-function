@@ -19,6 +19,9 @@ amplify init
 # プロジェクトにホスティング機能を追加
 amplify add hosting
 
+# プロジェクトにAPI機能を追加  
+amplify add api
+
 # プロジェクトにファンクション機能を追加  
 amplify add function
 
