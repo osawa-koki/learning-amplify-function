@@ -17,6 +17,13 @@
       "service": "AppSync"
     }
   },
+  "function": {
+    "learningamplifyfunctaccc338b": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "providerPlugin": "awscloudformation",
@@ -25,6 +32,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_learningamplifyfunctaccc338b_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "learningamplifyfunctaccc338b"
+        }
+      ]
+    },
+    "AMPLIFY_function_learningamplifyfunctaccc338b_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "learningamplifyfunctaccc338b"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {

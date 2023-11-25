@@ -20,6 +20,12 @@
       },
       "api": {
         "learningamplifyfunct": {}
+      },
+      "function": {
+        "learningamplifyfunctaccc338b": {
+          "deploymentBucketName": "amplify-learningamplifyfunct-dev-221626-deployment",
+          "s3Key": "amplify-builds/learningamplifyfunctaccc338b-364e4a494e397332734a-build.zip"
+        }
       }
     }
   }

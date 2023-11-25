@@ -28,5 +28,7 @@ module.exports = {
     'out'
   ],
   rules: {
+    // ↓ 自動生成された型定義ファイルでエラーが出るので無効化。
+    '@typescript-eslint/ban-tslint-comment': 'off'
   }
 }
